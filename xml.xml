@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="xsl.xsl"?>
+<?xml-stylesheet type="text/css" href="css.css"?>
+
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- HEADER DEL CORPUS -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Trascrizione, Traduzione e codifica di pagina 8 e 9 di Morfologia di Ferdinand de Saussure</title>
+                <respStmt>
+                    <resp>A cura di:</resp>
+                    <name type="person" xml:id="LG">Lorenzo Guerrieri (matr. 559608)</name>
+                </respStmt>
+
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza: </resp>
+                    <name type="comune" xml:id="GE">Bibliothèque De Genève</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>Corso di Codifica, Laurea Triennale di Informatica Umanistica - Università di Pisa
+                    <date when="2022-09">Settembre 2022</date>
+                </edition>
+                <respStmt>
+                    <resp>Encoding by:</resp>
+                    <name ref="LG"/>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability status="restricted">
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2022">2022</date>
+                <distributor>Bibliothèque De Genève</distributor>
+                <address>
+                    <addrLine>Bibliothèque De Genève - Manuscrits et Archivees Privées</addrLine>
+                    <placeName ref="GE">Ginevra</placeName>
+                </address>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Svizzera</country>
+                        <settlement type="città">Ginevra</settlement>
+                        <repository>Bibliothèque De Genève</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+ 
+    <!-- HEADER DELLA PAGINA 8 -->
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Pagina 8 MORFOLOGIA di Saussure</title>
+
+                    <respStmt>
+                        <resp>Encoding by:</resp>
+                        <name ref="LG"/>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza:</resp>
+                        <name type="comune" ref="GE">Bibliothèque De Genève</name>
+                    </respStmt>
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Corso di Codifica, Laurea Triennale di Informatica Umanistica - Università di Pisa 
+                        <date when="2022-09">Settembre 2022</date>
+                    </edition>
+                    <respStmt>
+                        <resp>Encoding by:</resp>
+                        <name ref="LG"/>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <p>Available under licence only</p>
+                    </availability>
+                    <date when="2022">2022</date>
+                    <distributor>Bibliothèque De Genève</distributor>
+                    <address>
+                        <addrLine>Bibliothèque De Genève - Manuscrits et Archivees Privées</addrLine>
+                        <placeName ref="GE">Ginevra</placeName>
+                    </address>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <bibl>
+                        <title>Pagina 8 MORFOLOGIA di Saussure</title>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Svizzera</country>
+                            <settlement>Ginevra</settlement>
+                            <repository>Bibliothèque De Genève</repository>
+                            <idno>Ms. fr. 3951/7</idno>
+                        </msIdentifier>
+
+                        <msContents>
+                            <summary>Manoscritto di Linguistica</summary>
+                            <textLang>Francese</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Manoscritto</objectType>
+                                        <material>Carta</material>
+                                        <dimensions>
+                                            <width>sconosciute</width>
+                                            <height>sconosciute</height>
+                                        </dimensions>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>
+                                    <p>Il documento è stato scritto interamente da Ferdinand de Saussure. Presenta vistose correzioni con inchiostro nero
+                                    e in alto a sinistra è presente il numero di pagina scritto probabilmente in inchiostro rosso.</p>
+                                    <p>Lungo tutta la parte sinistra del documento ci sono aggiunte e dei contrassegni in probabile inchiostro rosso.</p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                    </msDesc>
+
+                    <listPerson>
+                        <person xml:id="FS">
+                            <persName>
+                                <forename>Ferdinand</forename>
+								<surname>de Saussure</surname>
+                            </persName>
+                            <sex>M</sex>
+                        </person>
+                    </listPerson>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr-FR">Francese</language>
+                </langUsage>
+                <settingDesc>
+                    <setting>
+                        <name>Luogo sconosciuto</name>
+                        <time>1893-95</time>
+                    </setting>
+                </settingDesc>				
+            </profileDesc>
+        </teiHeader>
+
+        <facsimile>
+            <!-- "FRONTE" Manoscritto -->
+            <surfaceGrp>
+                <surface  type="fronte_manoscritto">
+                    <graphic url="p8.jpg"/>
+                </surface>
+                <!-- "RETRO" Manoscritto -->
+                <surface type="retro_manoscritto">
+                    <graphic url="p8.jpg"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+
+        <!--TESTO MANOSCRITTO 1-->
+        <text>
+            <body xml:lang="fr-FR">
+                <div type="trascrizione">
+                    <!-- TRASCRIZIONE -->
+                    <p><lb/>la langue<del rend="overstrike"> trouve une [illegible]<unclear reason="illegible"/></del> <lb/>
+                        <lb/><unclear reason="illegible"/> et sa manière de <lb/> 
+                        <lb/>procéder trouvent à se manifester <del rend="overstrike"> <abbr>D</abbr> </del> dans un <lb/>
+                        <lb/>document irrécusable : <lb/>
+                        <lb/>men-eur, os-eur, recom= <lb/>
+                        <lb/>=menc-eur. <lb/>
+                        <lb/>D'autre part les mêmes formations attestent que les éléments men-, os-, recommenc- <lb/>
+                        <lb/>sont également<del rend="overstrike"> Nou, vayer [illegible]<unclear reason="illegible"/></del> <lb/>
+                        <lb/>ressentis comme unités significatives.<del rend="overstrike"> faux d'attribuer [illegible]<unclear reason="illegible"/></del> <lb/>
+                        <lb/>À côté de penseur, nous avons <lb/>
+                        <lb/>pensif.<del rend="overstrike"> Avus [illegible]<unclear reason="illegible"/> suis ici d</del><lb/> 
+                        <lb/>Eh bien, s'il est certain que la langue <lb/>
+                        <lb/>isole -eur, il est <choice><abbr>(bcp)</abbr><expan>beaucoup</expan></choice> moins certain<lb/> 
+                        <lb/>que la langue isole -if. Comment en jugeons-nous ? Parce qu'on ne pourrait <lb/>
+                        <lb/>former menif, osif, etc... <lb/>
+                        <lb/>Conclusion: l'analyse morphologique du gram=<lb/> 
+                        <lb/>=mairien, <del rend="overstrike"><unclear reason="illegible"/> [illegible] à un fais positif</del><lb/> 
+                        <lb/><del rend="overstrike"><unclear reason="illegible"/> [illegible] quand elle coincide avec l'analyse</del> <lb/>
+                        <lb/>dans la mesure où <del rend="overstrike">de la langue</del> elle se trouve <lb/>
+                        <lb/>d'accord avec l'analyse de la <lb/>
+                        <lb/>langue <del rend="overstrike">[illegible] <unclear reason="illegible"/></del><add place="down">attestée</add> par les néologismes<lb/> 
+                        <lb/>ou formations d'analogie, ne saurait <lb/>
+                        <lb/>passer pour <del rend="overstrike">une</del> un produit de<lb/> 
+                        <lb/>l'abstraction. <lb/>
+                        <lb/>Maintenant il est très vrai que<lb/> 
+                        <lb/>les sujets parlants procèdent toujours en partant du mot fait:<lb/> 
+                        <lb/>c'est-à-dire qu'en formant oseur, on ne se <lb/>
+                        <lb/>dit pas : je combine os- et -eur. Mais <lb/>
+				    on procède comme suit: </p>
+                </div>
+                
+                <div type="retro">
+                    <div type="contenuto_trascrizione">
+                  <!-- TRADUZIONE -->
+                        <p><lb/>la lingua <del rend="overstrike">trova un [illeggibile] </del><lb/>  
+                            <lb/> <unclear reason="illegible"/>e il suo modo di<lb/>   
+                            <lb/>procedere trovano una manifestazione <del rend="overstrike"> <abbr>D</abbr> </del> in un<lb/>   
+                            <lb/>documento irrefutabile:<lb/>  
+                            <lb/>men-eur, os-eur, recom <lb/> 
+                            <lb/>menc-eur. <lb/> 
+                            <lb/>D’altra parte, le stesse formazioni attestano che gli elementi men-, os-, recommenc-<lb/>  
+                            <lb/>sono ugualmente <del rend="overstrike">Andiamo [illeggibile] <unclear reason="illegible"/></del><lb/> 
+                            <lb/>sentiti come unità significative. <del rend="overstrike">sbagliato attribuire [illeggibile] <unclear reason="illegible"/></del><lb/> 
+                            <lb/>A fianco di penseur, abbiamo  <lb/>
+                            <lb/>pensif. <del rend="overstrike">Avus [illeggibile]<unclear reason="illegible"/> sono qui d </del> <lb/>
+                            <lb/>Ebbene! Se è certo che la lingua  <lb/>
+                            <lb/>isola -eur, è assai meno certo  <lb/>
+                            <lb/>che la lingua isola -if. Come facciamo a giudicare così? Perché non si potrebbe   <lb/>
+                            <lb/>formare menif, osif, ecc...  <lb/>
+                            <lb/>Conclusione. L’analisi morfologica del gram=  <lb/>
+                            <lb/>=matico, <del rend="overstrike"><unclear reason="illegible"/> [illeggibile] a un fatto positivo </del> <lb/>
+                            <lb/><del rend="overstrike"><unclear reason="illegible"/> [illeggibile] quando coincide con l'analisi </del><lb/> 
+                            <lb/>nella misura in cui <del rend="overstrike">della lingua</del> si trova  <lb/>
+                            <lb/>d’accordo con l’analisi della  <lb/>
+                            <lb/>lingua <del rend="overstrike">[illeggibile] <unclear reason="illegible"/></del>attestata dai neologismi<lb/>  
+                            <lb/>o formazioni d’analogia, non potrebbe  <lb/>
+                            <lb/>passare per un <del rend="overstrike">una</del> prodotto dell’ <lb/>
+                            <lb/>astrazione.  <lb/>
+                            <lb/>Adesso, è assai vero che  <lb/>
+                            <lb/>i soggetti parlanti procedono sempre partendo dalla parola intera:  <lb/>
+                            <lb/>cioè che nel formare oseur non si  <lb/>
+                            <lb/>dice: io combino os- e -eur. Ma  <lb/>
+                            <lb/>si procede come segue:  </p><lb/>
+					</div>
+                </div>
+            </body>
+        </text>
+    </TEI>
+
+
+    <!-- HEADER DELLA PAGINA 9 -->
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+           <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="titolo">Pagina 9 Morfologia di Saussure</title>
+
+                    <respStmt>
+                        <resp>Trascrizione a cura di:</resp>
+                        <name ref="LG"/>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza:</resp>
+                        <name type="comune" ref="GE">Bibliothèque De Genève</name>
+                    </respStmt>
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale e
+                        Triennale di Informatica Umanistica, Università di Pisa
+                        <date when="2022-09">settembre 2022</date>
+                    </edition>
+                    <respStmt>
+                        <resp>Encoding by:</resp>
+                        <name ref="LG"/>
+                    </respStmt>	
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <p>Available under licence only</p>
+                    </availability>
+                    <date when="2022">2022</date>
+                    <distributor>Bibliothèque De Genève</distributor>
+                    <address>
+                        <addrLine>Bibliothèque De Genève - Manuscrits et Archivees Privées</addrLine>
+                        <placeName ref="GE">Ginevra</placeName>
+                    </address>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <bibl>
+                        <title>Pagina 9 Morfologia di Saussure</title>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Svizzera</country>
+                            <settlement>Ginevra</settlement>
+                            <repository>Bibliothèque De Genève</repository>
+                            <idno>Ms. fr. 3951/7</idno>
+                        </msIdentifier>
+
+                        <msContents>
+                            <summary>Manoscritto di Linguistica</summary>
+                            <textLang>Francese</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Manoscritto</objectType>
+                                        <material>Carta</material>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>
+                                    <p>Il documento è stato scritto interamente da Ferdinand de Saussure. Presenta vistose correzioni con inchiostro nero
+                                    e in alto a sinistra e a destra è presente il numero di pagina scritto probabilmente in inchiostro rosso.</p>
+                                    <p>In basso a sinistra c'è una nota di quello che doveva essere 
+                                        il numero di paragrafo prescelto dall'autore per quella determinata sezione di testo in probabile inchiostro rosso.</p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                    </msDesc>
+
+                    <listPerson>
+                        <person>
+                            <persName>
+                                <forename>Ferdinand</forename>
+								<surname>de Saussure</surname>
+                            </persName>
+                            <sex>M</sex>
+                        </person>
+                    </listPerson>
+                 </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fr-FR">Francese</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+
+        <facsimile>
+            <surfaceGrp>
+                <surface type="fronte_manoscritto">
+                    <graphic url="p9.jpg"/>
+                </surface>
+                <surface xml:id="facsimile-manoscritto-bisR">
+                    <graphic url="p9.jpg"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+
+        <!-- TESTO MANOSCRITTO 2-->
+        <text>
+            <body xml:lang="fr-FR">
+                <div type="trascrizione">
+                <!-- TRASCRIZIONE -->    
+                    <p><lb/>graveur : graver, je grave = <del rend="overstrike">x : oser </del> x : oser, j'ose. - x = oseur.<lb/> 
+                        <lb/>Mais je vous demande si le grammairien <lb/>
+                        <lb/>procède <del rend="overstrike"><unclear reason="illegible">[illegible] autrent</unclear></del> lui-même dans ses analyses<lb/> 
+                        <lb/>d'une manière bien différente. <lb/>
+                        <lb/>Lui aussi part forcément des mots <lb/>
+                        <lb/>faits: pour dégager <del rend="overstrike"><unclear reason="illegible">[illegible] </unclear></del>-σις dans δόσις,  <lb/>
+                        <lb/>il compare <del rend="overstrike"><unclear reason="illegible">[illegible]</unclear></del> δοτός, et il compare  <lb/>
+                        <lb/>par exemple <del rend="overstrike">[illegible]</del>στάσις <lb/>
+                        <lb/><del rend="overstrike"><unclear reason="illegible">[illegible]</unclear></del>- δόσις : δοτός = στάσις : στατός  <lb/>
+                        <lb/>Donc, j'isole <del rend="overstrike">Twp</del>-σις ou -τός ou δό-. Donc je pourrais <lb/>
+                        <lb/>former à l'occasion λύσις (λυτός). Qui <lb/>
+                        <lb/>pourrait même dire si <del rend="overstrike">ce n</del>c'est <del rend="overstrike">pas</del> exactement <lb/>
+                        <lb/>de telle ou telle <del rend="overstrike">[illegible]<unclear reason="illegible"/></del> façon que le sentiment de la langue<lb/> 
+                        <lb/>procède? graveur: graver = penseur :penser. <lb/>
+                        <lb/>Donc (oser) oseur. <lb/>
+                        <lb/>Observation importante : il est essentiel de noter <del rend="overstrike">en meu [illegible]</del> <lb/>
+                        <lb/><del rend="overstrike">temps</del> que quel'analyse de la langue <lb/>
+                        <lb/>peut reposer sur un rapport apparent <lb/>
+                        <lb/>des formes, sur un rapport qui n'est pas justifié par <lb/>
+                        <lb/>l'étymologie <del rend="overstrike">ou la provenance</del>, c'est-à-dire <lb/>
+                        <lb/>par le rapport primitif de ces formes. <lb/>
+                        <lb/>Certainement. <del rend="overstrike">M </del>Germ.(Germanique) kalbiz pluriel kalbizō <lb/>
+                        <lb/>kalb kalbir <lb/>
+                        <lb/>À l'époque germanique, signe du pluriel -0. <lb/>
+                        <lb/>À l'époque allemande, <unclear reason="illegible">signe du pluriel -ir.</unclear> </p><lb/>
+                </div>
+
+                <div type="retro">
+                    <div type="contenuto_trascrizione">
+                    <!-- TRADUZIONE -->    
+                        <p> <lb/>graveur : graver, je grave = <del rend="overstrike">x : oser </del>x : oser, j’ose. <lb/>
+                            <lb/>Ma io vi domando se il grammatico  <lb/>
+                            <lb/>procede <del rend="overstrike"><unclear reason="illegible">[illeggibile] altro </unclear></del>anche lui, nelle sue analisi,<lb/>  
+                            <lb/>in un modo ben diverso.   <lb/>
+                            <lb/>Lui pure parte, forzatamente, dalle parole  <lb/>
+                            <lb/>intere: per isolare <del rend="overstrike"><unclear reason="illegible">[illeggibile] </unclear></del>-σις in δόσις,  <lb/>
+                            <lb/>compara <del rend="overstrike"><unclear reason="illegible">[illeggibile] </unclear></del>δοτός e compara  <lb/>
+                            <lb/>per esempio <del rend="overstrike">[illeggibile]</del> στάσις  <lb/>
+                            <lb/><del rend="overstrike"><unclear reason="illegible">[illeggibile]</unclear></del> δόσις : δοτός = στάσις : στατός  <lb/>
+                            <lb/>Dunque io isolo <del rend="overstrike">Twp</del>-σις o -τός o δό-. Dunque io potrei  <lb/>
+                            <lb/>formare eventualmente λύσις (λυτός). Chi   <lb/>
+                            <lb/>potrebbe mai dire se <del rend="overstrike">questo n</del> è <del rend="overstrike">non </del>esattamente  <lb/>
+                            <lb/>in questo o quel modo <del rend="overstrike">[illeggibile]<unclear reason="illegible"/></del> che procede il sentimento della<lb/>  
+                            <lb/>lingua?graveur : graver = penseur : penser.  <lb/>
+                            <lb/>E dunque (oser) oseur.  <lb/>
+                            <lb/>Osservazione importante : È essenziale notare <del rend="overstrike">en meu[illeggibile] </del> <lb/>
+                            <lb/><del rend="overstrike">tempi</del> che l’analisi della lingua  <lb/>
+                            <lb/>può riposare su un rapporto apparente  <lb/>
+                            <lb/>delle forme, su un rapporto che non è giustificato  <lb/>
+                            <lb/>dall’etimologia <del rend="overstrike">o la provenienza</del> e cioè  <lb/>
+                            <lb/>dal rapporto primitivo di queste forme.  <lb/>
+                            <lb/>Certamente. <del rend="overstrike">M</del> Germanico kalbiz plurale kalbizō  <lb/>
+                            <lb/>kalb kalbir  <lb/>
+                            <lb/>All’epoca germanica, segno del plurale -ō;  <lb/>
+                            <lb/>All’epoca tedesca, <unclear reason="illegible">segno del plurale -ir.]</unclear> </p><lb/>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
